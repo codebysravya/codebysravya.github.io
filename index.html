@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>document.documentElement.className += " js";</script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>~/sravya-kp — WordPress & Frontend Developer</title>
+  <meta name="description" content="Sravya KP — WordPress Developer, Frontend Developer & Digital Marketing Strategist. 3 years building responsive, SEO-friendly websites." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ===== Background grid ===== -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <!-- ===== Navbar ===== -->
+  <header class="nav" id="top">
+    <a href="#top" class="nav__logo"><span class="prompt">~/</span>sravya-kp</a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#about">about</a>
+      <a href="#experience">experience</a>
+      <a href="#projects">projects</a>
+      <a href="#skills">skills</a>
+      <a href="#contact">contact</a>
+    </nav>
+    <button class="btn btn--ghost nav__chat" data-open-chat>
+      <span class="dot"></span> ask-me.sh
+    </button>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="hero__intro">
+      <p class="hero__eyebrow">hi, I'm Sravya</p>
+      <h1 class="hero__title">Web Developer<span class="cursor" aria-hidden="true"></span></h1>
+      <p class="hero__role">WordPress <span class="sep">·</span> Frontend <span class="sep">·</span> Digital Marketing</p>
+      <p class="hero__desc">
+        3 years building <span class="hl">responsive, SEO-friendly</span> websites —
+        custom WordPress themes, WooCommerce stores, and pixel-perfect
+        Figma-to-web builds that load fast and rank well.
+      </p>
+      <div class="hero__meta">
+        <span class="tag"><span class="ok"></span> Open to full-time roles</span>
+        <span class="tag">📍 Kerala, Bangalore</span>
+      </div>
+      <div class="hero__cta">
+        <a href="#projects" class="btn btn--primary">View projects</a>
+        <button class="btn btn--ghost" data-open-chat>💬 Chat with me</button>
+      </div>
+      <div class="hero__socials">
+        <a href="https://www.linkedin.com/in/sravya-kp-bb6726203" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:sravyakp1@gmail.com">Email</a>
+      </div>
+      </div><!-- /hero__intro -->
+
+      <div class="hero__chat">
+        <!-- ===== Chat window (inline on desktop, floating on mobile) ===== -->
+        <div class="chat" id="chat" aria-hidden="true">
+          <div class="chat__header">
+            <div class="chat__title">
+              <span class="chat__dots"><i></i><i></i><i></i></span>
+              <span class="chat__name">./ask-me.sh</span>
+            </div>
+            <button class="chat__close" data-close-chat aria-label="Close chat">✕</button>
+          </div>
+          <div class="chat__log" id="chat-log" aria-live="polite"></div>
+          <div class="chat__suggestions" id="chat-suggestions"></div>
+          <form class="chat__input" id="chat-form" autocomplete="off">
+            <span class="prompt">›</span>
+            <input id="chat-text" type="text" placeholder="Ask about my skills, experience, projects…" aria-label="Message" />
+            <button type="submit" aria-label="Send">↵</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="section" id="about">
+      <h2 class="section__title"><span class="prompt">~/</span>about</h2>
+      <div class="about">
+        <p>
+          I'm a WordPress and frontend developer who designs, builds, and
+          optimizes websites that are <strong>fast, responsive, and
+          SEO-friendly</strong>. My day-to-day spans custom theme development in
+          PHP, page building with Elementor, Gutenberg and Divi, and turning
+          Figma designs into pixel-perfect, production-ready sites.
+        </p>
+        <p>
+          Beyond building, I care about how a site <strong>performs and gets
+          found</strong> — improving Core Web Vitals with Google PageSpeed
+          Insights, implementing on-page SEO, and running Google Analytics &amp;
+          Search Console. I also plan digital marketing campaigns and design
+          creatives in Canva, so I understand the full picture from code to reach.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== Experience ===== -->
+    <section class="section" id="experience">
+      <h2 class="section__title"><span class="prompt">~/</span>experience</h2>
+      <ol class="timeline">
+        <li class="tl">
+          <div class="tl__head">
+            <h3>WordPress Developer &amp; Digital Presence Strategist</h3>
+            <span class="tl__date">Aug 2024 – Present</span>
+          </div>
+          <p class="tl__org">Technoprix Pvt. Ltd. · Kozhikode</p>
+          <ul>
+            <li>Develop and maintain responsive WordPress sites with Elementor, Gutenberg &amp; custom themes.</li>
+            <li>Convert Figma UI designs into pixel-perfect WordPress builds.</li>
+            <li>Implement on-page SEO and run digital marketing campaigns; monitor Google Analytics &amp; Search Console.</li>
+          </ul>
+        </li>
+        <li class="tl">
+          <div class="tl__head">
+            <h3>Web Developer</h3>
+            <span class="tl__date">Jan 2024 – Jun 2024</span>
+          </div>
+          <p class="tl__org">QBS · Kozhikode</p>
+          <ul>
+            <li>Built responsive WordPress websites using Elementor.</li>
+            <li>Optimized site speed and improved performance scores.</li>
+          </ul>
+        </li>
+        <li class="tl">
+          <div class="tl__head">
+            <h3>Frontend Developer</h3>
+            <span class="tl__date">Oct 2022 – Nov 2023</span>
+          </div>
+          <p class="tl__org">Sprintisle Digital Solutions · Kozhikode</p>
+          <ul>
+            <li>Customized WordPress themes and plugins to client requirements.</li>
+            <li>Integrated WooCommerce and third-party APIs &amp; services.</li>
+            <li>Optimized websites for speed and SEO; handled ongoing maintenance.</li>
+          </ul>
+        </li>
+        <li class="tl">
+          <div class="tl__head">
+            <h3>Web Development Intern</h3>
+            <span class="tl__date">Mar 2022 – Sep 2022</span>
+          </div>
+          <p class="tl__org">Cloudspring Technologies · Kozhikode</p>
+          <ul>
+            <li>Built responsive pages with HTML, CSS, Bootstrap, JavaScript, PHP &amp; MySQL.</li>
+            <li>Developed an Employee Management System with CRUD and authentication modules.</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section class="section" id="projects">
+      <h2 class="section__title"><span class="prompt">~/</span>projects</h2>
+      <div class="projects">
+        <article class="card">
+          <div class="card__top">
+            <h3>GetSkillsOnline</h3>
+            <span class="card__year">Frontend</span>
+          </div>
+          <p>Online learning platform — responsive build with speed optimization and clean UX.</p>
+          <ul class="chips"><li>WordPress</li></ul>
+          <a href="https://getskillonline.com/" target="_blank" rel="noopener" class="card__link">Visit site →</a>
+        </article>
+
+        <article class="card">
+          <div class="card__top">
+            <h3>Academy — Taxscan</h3>
+            <span class="card__year">WordPress</span>
+          </div>
+          <p>Course academy site with responsive design and performance tuning.</p>
+          <ul class="chips"><li>WordPress</li><li>Responsive</li><li>Speed</li></ul>
+          <a href="https://academy.taxscan.in/" target="_blank" rel="noopener" class="card__link">Visit site →</a>
+        </article>
+
+        <article class="card">
+          <div class="card__top">
+            <h3>Future Fantastic</h3>
+            <span class="card__year">WordPress</span>
+          </div>
+          <p>Marketing website built for speed, mobile responsiveness and SEO.</p>
+          <ul class="chips"><li>WordPress</li><li>Speed</li><li>Responsive</li></ul>
+          <a href="https://futurefantastic.in/" target="_blank" rel="noopener" class="card__link">Visit site →</a>
+        </article>
+
+        <article class="card">
+          <div class="card__top">
+            <h3>Foundations Wellness</h3>
+            <span class="card__year">WordPress</span>
+          </div>
+          <p>Wellness brand website — custom theme work with a responsive, on-brand layout.</p>
+          <ul class="chips"><li>WordPress</li><li>Responsive</li><li>SEO</li></ul>
+          <a href="https://foundationswellness.net/" target="_blank" rel="noopener" class="card__link">Visit site →</a>
+        </article>
+
+        <article class="card">
+          <div class="card__top">
+            <h3>Cloud AI — Frontend</h3>
+            <span class="card__year">React.js</span>
+          </div>
+          <p>Frontend UI screens with CRUD operations built in React.js.</p>
+          <ul class="chips"><li>React.js</li><li>UI</li><li>CRUD</li></ul>
+        </article>
+
+        <article class="card">
+          <div class="card__top">
+            <h3>Employee Management System</h3>
+            <span class="card__year">PHP</span>
+          </div>
+          <p>Internal tool with CRUD operations, auth modules and a MySQL backend.</p>
+          <ul class="chips"><li>PHP</li><li>MySQL</li><li>CRUD</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section class="section" id="skills">
+      <h2 class="section__title"><span class="prompt">~/</span>skills</h2>
+      <div class="skills">
+        <div class="skills__group">
+          <h4>Frontend</h4>
+          <ul class="chips">
+            <li>HTML5</li><li>CSS3</li><li>Bootstrap 5</li><li>JavaScript</li><li>jQuery</li><li>AJAX</li><li>React.js</li>
+          </ul>
+        </div>
+        <div class="skills__group">
+          <h4>CMS</h4>
+          <ul class="chips">
+            <li>WordPress</li><li>Elementor</li><li>Gutenberg</li><li>WooCommerce</li><li>Divi</li>
+          </ul>
+        </div>
+        <div class="skills__group">
+          <h4>Backend</h4>
+          <ul class="chips">
+            <li>PHP</li><li>MySQL</li>
+          </ul>
+        </div>
+        <div class="skills__group">
+          <h4>SEO &amp; Marketing</h4>
+          <ul class="chips">
+            <li>On-page SEO</li><li>Keyword Research</li><li>Search Console</li><li>PageSpeed</li><li>Canva</li>
+          </ul>
+        </div>
+        <div class="skills__group">
+          <h4>Tools</h4>
+          <ul class="chips">
+            <li>Git</li><li>VS Code</li><li>Figma</li><li>ChatGPT</li><li>Gemini</li><li>Claude</li>
+          </ul>
+        </div>
+        <div class="skills__group">
+          <h4>Languages</h4>
+          <ul class="chips">
+            <li>English</li><li>Malayalam</li><li>Hindi</li><li>Tamil</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="section section--contact" id="contact">
+      <h2 class="section__title"><span class="prompt">~/</span>contact</h2>
+      <p class="contact__lead">
+        I'm looking for my next full-time role. If you're hiring a WordPress or
+        frontend developer, let's talk — I reply within 24 hours.
+      </p>
+      <div class="contact__actions">
+        <a href="mailto:sravyakp1@gmail.com" class="btn btn--primary">sravyakp1@gmail.com</a>
+        <a href="https://www.linkedin.com/in/sravya-kp-bb6726203" target="_blank" rel="noopener" class="btn btn--ghost">LinkedIn →</a>
+        <button class="btn btn--ghost" data-open-chat>Or ask my bot →</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <span><span class="prompt">$</span> echo "B.Sc. Computer Science · IHRD College, Nadapuram"</span>
+    <div class="footer__links">
+      <a href="#top">back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
