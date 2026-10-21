@@ -6,7 +6,7 @@
 
 const PROFILE = {
   name: "Sravya KP",
-  role: "ERP Developer, WordPress Developer, Frontend Developer & Digital Marketing Strategist",
+  role: "WordPress Developer, ERP Developer, Frontend Developer & Digital Marketing Strategist",
   email: "sravyakp1@gmail.com",
   linkedin: "https://www.linkedin.com/in/sravya-kp-bb6726203",
   location: "Kerala, Bangalore",
